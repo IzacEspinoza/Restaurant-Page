@@ -1,1 +1,1 @@
-console.log("Hello there bitch");
+(()=>{const e=document.getElementById("content"),t=document.createElement("img"),n=document.createElement("h1"),o=document.createElement("p");window.onload=d=>{console.log("Welcome to the resturatnt you slut"),e.appendChild(t),e.appendChild(n),e.appendChild(o)}})();
