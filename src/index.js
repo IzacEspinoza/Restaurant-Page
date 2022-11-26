@@ -7,7 +7,7 @@ import loadMenuTab from "./menu";
 window.onload = (e) => {
     //loadHomeTab();
     //loadContactTab();
-    loadMenuTab();
+    //loadMenuTab();
 };
 
 //event listeners for tab buttons
