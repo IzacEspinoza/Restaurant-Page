@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/contact.js":
+/*!************************!*\
+  !*** ./src/contact.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n//This will display contact info(socials, phone number, email etc.,)loads on button/tab click\nconst createContact = () => {\n    const contact = document.createElement(\"div\");\n    contact.classList.add(\"contact\");\n\n    const contactContent = document.createElement(\"h1\");\n    contactContent.textContent = \"This is the contact form\";\n    contact.appendChild(contactContent);\n    return contact;\n};\n\nconst loadContactTab = () => {\n    const currentContent = document.getElementById(\"content\");\n    currentContent.textContent = '';\n    currentContent.appendChild(createContact());\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadContactTab);\n\n//# sourceURL=webpack://restaurant-page/./src/contact.js?");
+
+/***/ }),
+
 /***/ "./src/home.js":
 /*!*********************!*\
   !*** ./src/home.js ***!
@@ -26,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n\n\n\n//Default to the home tab when the page is loaded or refreshed\nwindow.onload = (e) => {\n    (0,_home__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n};\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contact */ \"./src/contact.js\");\n\n\n\n\n//Default to the home tab when the page is loaded or refreshed\nwindow.onload = (e) => {\n    //loadHomeTab();\n    //loadContactTab();\n};\n\n//event listeners for tab buttons\n//on click, they will call the appropriate loaders\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ })
 
