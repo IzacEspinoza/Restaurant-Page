@@ -36,7 +36,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contact */ \"./src/contact.js\");\n\n\n\n\n//Default to the home tab when the page is loaded or refreshed\nwindow.onload = (e) => {\n    //loadHomeTab();\n    //loadContactTab();\n};\n\n//event listeners for tab buttons\n//on click, they will call the appropriate loaders\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./contact */ \"./src/contact.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n\n\n\n\n\n//Default to the home tab when the page is loaded or refreshed\nwindow.onload = (e) => {\n    //loadHomeTab();\n    //loadContactTab();\n    (0,_menu__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n};\n\n//event listeners for tab buttons\n//on click, they will call the appropriate loaders\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/menu.js":
+/*!*********************!*\
+  !*** ./src/menu.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n//This will be the tab that displays a menu for the user, loads on button/tab click\nconst createMenu = () => {\n    const menu = document.createElement(\"div\");\n    menu.classList.add(\"menu\");\n\n    const menuContent = document.createElement(\"h1\");\n    menuContent.textContent = \"This is the menu tab\";\n    menu.appendChild(menuContent);\n    return menu;\n};\n\nconst loadMenuTab = () => {\n    const currentContent = document.getElementById(\"content\");\n    currentContent.textContent = '';\n    currentContent.appendChild(createMenu());\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadMenuTab);\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
 
 /***/ })
 
