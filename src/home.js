@@ -28,8 +28,8 @@ const makeParagraph = (text) => {
   return paragraph;
 };
 const loadHomeTab = () => {
-    const currentContent = document.getElementById("content");
-    currentContent.textContent = '';
-    currentContent.appendChild(createHome());
+    const main = document.getElementById("main");
+    main.textContent = '';
+    main.appendChild(createHome());
 };
 export default loadHomeTab;
