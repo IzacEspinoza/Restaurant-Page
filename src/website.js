@@ -65,6 +65,13 @@ const setActiveButton = (button) => {
   
     button.classList.add("active");
 }
+const createMain = () => {
+    const main = document.createElement("main");
+    main.classList.add("main");
+    main.setAttribute("id", "main");
+    main.textContent = "Some coolo inof";
+    return main;
+}
 const createFooter = () => {
     const footer = document.createElement("footer");
     footer.classList.add("footer");
@@ -72,18 +79,19 @@ const createFooter = () => {
     const copyright = document.createElement("p");
     copyright.textContent = `Copyright © ${new Date().getFullYear()} Izac Espinoza`;
 
-    const gitHubLink = documetn.createElement("a");
+    const gitHubLink = document.createElement("a");
     gitHubLink.href = "https://github.com/IzacEspinoza";
 
     footer.appendChild(copyright);
     footer.appendChild(gitHubLink);
+
+    return footer;
 }
 const initializeWebsite = () => {
-    //load up the site, embed into #content
     const content = document.getElementById("content");
 
     content.appendChild(createHeader());
-    content.appendChild(createNav());
+    content.appendChild(createMain());
     content.appendChild(createFooter());
 
     setActiveButton(document.querySelector(".tab-button"));
