@@ -4,6 +4,7 @@ const createHome = () => {
   home.classList.add("home");
   
   const restaurantImg = document.createElement("img");
+  restaurantImg.classList.add("restaurant-Pic");
   restaurantImg.src = "./assets/images/restaurant.png";
   restaurantImg.alt = "restaurant";
   
