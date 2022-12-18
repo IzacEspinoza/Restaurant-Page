@@ -42,10 +42,14 @@ body{
     gap: 3rem;
 }/*Main styling*/
 .main{
-    background-color: grey;
+    background-color: black;
+    border:2px double #011C26;
     padding: 2rem;
     display: flex;
     justify-content: space-evenly;
+}
+.restaurant-Pic{
+    width: 100%;
 }/*Footer styling*/
 .footer{
     background-color: #011C26;
