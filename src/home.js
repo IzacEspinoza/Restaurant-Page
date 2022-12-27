@@ -2,6 +2,10 @@
 const createHome = () => {
   const home = document.createElement("div");
   home.classList.add("home");
+
+  const homeContent = document.createElement("h1");
+  homeContent.textContent = "Home";
+  home.appendChild(homeContent);
   
   const restaurantImg = document.createElement("img");
   restaurantImg.classList.add("restaurant-Pic");

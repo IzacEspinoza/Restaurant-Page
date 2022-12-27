@@ -1,0 +1,16 @@
+.menu{
+    width: 100vh;
+    height: 100%;
+    border: 2px dotted white;
+}
+.menu-grid{
+    height: 80%;
+    display: grid;
+    padding: 1rem;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    gap: 10px;
+}
+.menu-item{
+    border: 2px dotted red;
+    padding: 10px;
+}

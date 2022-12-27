@@ -4,7 +4,7 @@ const createContact = () => {
     contact.classList.add("contact");
 
     const contactContent = document.createElement("h1");
-    contactContent.textContent = "This is the contact form";
+    contactContent.textContent = "Contact";
     contact.appendChild(contactContent);
 
     return contact;
