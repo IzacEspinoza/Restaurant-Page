@@ -10,7 +10,7 @@ const createMenu = () => {
     return menu;
 };
 const loadMenuTab = () => {
-    const currentContent = document.getElementById("content");
+    const currentContent = document.querySelector(".main");
     currentContent.textContent = '';
     currentContent.appendChild(createMenu());
 };

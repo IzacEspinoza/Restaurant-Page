@@ -10,7 +10,7 @@ const createContact = () => {
     return contact;
 };
 const loadContactTab = () => {
-    const currentContent = document.getElementById("content");
+    const currentContent = document.querySelector(".main");
     currentContent.textContent = '';
     currentContent.appendChild(createContact());
 };
