@@ -50,12 +50,16 @@ body{
     background-color: black;
     border:2px double #011C26;
     padding: 1rem 0rem;
+    height: 50vh;
     display: flex;
     justify-content: center;
 }
+.main h1{
+    text-align: center;
+}
 .restaurant-Pic{
-    width: 800px;
-    height: auto;
+    width: 100vh;
+    height: 70%;
     border: 10px double #011C26;
 }
 .restaurant-Pic:hover{
