@@ -7,22 +7,19 @@ const createMenu = () => {
     menuContent.textContent = "Menu";
     menu.appendChild(menuContent);
 
-    //Create a grid of images here?
     const menuGrid = document.createElement("div");
     menuGrid.classList.add("menu-grid");
 
-    //append menu items made from the function
-    menuGrid.appendChild(createMenuItem("pizza", "taste like shit"));
-    menuGrid.appendChild(createMenuItem("cake", "taste like booty"));
-    menuGrid.appendChild(createMenuItem("steak", "taste like pussy"));
-    menuGrid.appendChild(createMenuItem("mashed", "taste like stuffs"));
-    menuGrid.appendChild(createMenuItem("spaghetti", "taste like foood"));
-    menuGrid.appendChild(createMenuItem("garlic_bread", "taste like death"));
+    menuGrid.appendChild(createMenuItem("pizza", "Delicious Pizza straight from the country of Italia, Yummy!"));
+    menuGrid.appendChild(createMenuItem("cake", "Scrumptious fluffy cake made by local bakery."));
+    menuGrid.appendChild(createMenuItem("steak", "Choice cut of Ribeye, served with sides, Delicious!"));
+    menuGrid.appendChild(createMenuItem("mashed-potatoes", "Soft serve fluffy mashed potatoes, perfect side for any dish."));
+    menuGrid.appendChild(createMenuItem("spaghetti", "Classic Italian pasta meal, oh yeah!"));
+    menuGrid.appendChild(createMenuItem("garlic_bread", "Crunchy and tasteful bread toasted with garlic cloves and herbs, a great side!"));
 
     menu.appendChild(menuGrid);
     return menu;
 };
-//create a function that creates menu items for you
 const createMenuItem = (itemName, itemDescription) => {
     const menuItem = document.createElement("div");
     menuItem.classList.add("menu-item");
@@ -34,7 +31,7 @@ const createMenuItem = (itemName, itemDescription) => {
     foodDescription.textContent = itemDescription;
 
     const foodImage = document.createElement("img");
-    foodImage.src = `./assets/images/${itemName}.png`;//./assets/images/restaurant.png
+    foodImage.src = `./assets/images/${itemName}.png`;
     foodImage.alt = `${itemName} image`;
 
     menuItem.appendChild(foodName);

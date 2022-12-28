@@ -1,7 +1,6 @@
 .menu{
     width: 100vh;
     height: 100%;
-    border: 2px dotted white;
 }
 .menu-grid{
     display: grid;
@@ -20,4 +19,14 @@
 .menu-item img{
     width: 100%;
     height: auto;
+}
+.menu-item h2{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.menu-item p{
+    text-align: center;
+    font-style: italic;
+    margin: 5px;
 }
