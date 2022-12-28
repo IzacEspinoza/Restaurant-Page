@@ -14,10 +14,10 @@ const createMenu = () => {
     //append menu items made from the function
     menuGrid.appendChild(createMenuItem("pizza", "taste like shit"));
     menuGrid.appendChild(createMenuItem("cake", "taste like booty"));
-    menuGrid.appendChild(createMenuItem("Steak", "taste like pussy"));
-    menuGrid.appendChild(createMenuItem("Mashed Potatoes", "taste like stuffs"));
-    menuGrid.appendChild(createMenuItem("Spaghetti", "taste like foood"));
-    menuGrid.appendChild(createMenuItem("Bread", "taste like death"));
+    menuGrid.appendChild(createMenuItem("steak", "taste like pussy"));
+    menuGrid.appendChild(createMenuItem("mashed", "taste like stuffs"));
+    menuGrid.appendChild(createMenuItem("spaghetti", "taste like foood"));
+    menuGrid.appendChild(createMenuItem("garlic_bread", "taste like death"));
 
     menu.appendChild(menuGrid);
     return menu;
@@ -34,8 +34,8 @@ const createMenuItem = (itemName, itemDescription) => {
     foodDescription.textContent = itemDescription;
 
     const foodImage = document.createElement("img");
-    foodImage.src = '';//`images/pizzas/${name.toLowerCase()}.png`;;
-    foodImage.alt = "foodName"//`${foodName};
+    foodImage.src = `./assets/images/${itemName}.png`;//./assets/images/restaurant.png
+    foodImage.alt = `${itemName} image`;
 
     menuItem.appendChild(foodName);
     menuItem.appendChild(foodDescription);

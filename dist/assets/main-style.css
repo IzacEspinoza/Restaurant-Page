@@ -50,7 +50,7 @@ body{
     background-color: black;
     border:2px double #011C26;
     padding: 1rem 0rem;
-    height: 50vh;
+    height: 100%;
     display: flex;
     justify-content: center;
 }
