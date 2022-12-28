@@ -4,13 +4,20 @@
     border: 2px dotted white;
 }
 .menu-grid{
-    height: 80%;
     display: grid;
     padding: 1rem;
     grid-template: 1fr 1fr 1fr / 1fr 1fr;
     gap: 10px;
 }
 .menu-item{
-    border: 2px dotted red;
+    border: 5px double #011C26;
     padding: 10px;
+}
+.menu-item:hover{
+    cursor: crosshair;
+    border: 5px double white;
+}
+.menu-item img{
+    width: 100%;
+    height: auto;
 }
