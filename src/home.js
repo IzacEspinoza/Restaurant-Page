@@ -16,7 +16,7 @@ const createHome = () => {
   home.appendChild(makeHeadLine("Welcome to the restaurant!"));
   home.appendChild(
     makeParagraph(
-      "This will be the best place you ever eat at!  Most likeley at least, we hope :/"
+      "This will be the best place you ever eat at!  Most likeley at least, we hope. Here you will be treated to some delicous and amazing food, all prepared by the amazing chef Klutzeus, renowned Husky and Klutz."
     )
   );
 

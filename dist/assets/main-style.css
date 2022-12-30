@@ -50,22 +50,29 @@ body{
     background-color: black;
     border:2px double #011C26;
     padding: 1rem 0rem;
-    height: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .main h1{
     text-align: center;
 }
 .restaurant-Pic{
-    width: 100vh;
-    height: 70%;
+    width: 90%;
+    height: auto;
+    margin: 10px 50px 10px 50px;
     border: 10px double #011C26;
 }
 .restaurant-Pic:hover{
     border: 10px double white;
     cursor: crosshair;
-}/*Footer styling*/
+}
+.main p{
+    width: 50%;
+    margin: 5px 20rem;
+}
+/*Footer styling*/
 .footer{
     background-color: #011C26;
     height: 5rem;
