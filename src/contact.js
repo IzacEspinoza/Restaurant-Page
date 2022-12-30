@@ -45,10 +45,24 @@ const createForm = () => {
 
     const messageField = document.createElement("fieldset");
     messageField.classList.add("message-field");
+    const message = document.createElement("input");
+    message.type = "text";
+    message.placeholder = "Type your message here.";
+    message.classList.add("message-input");
+    messageField.appendChild(message);
+
+    const submitField = document.createElement("fieldset");
+    submitField.classList.add("submit-field");
+    const submitButton = document.createElement("button");
+    submitButton.classList.add("submit-button");
+    submitButton.type = "submit";
+    submitButton.textContent = "Submit";
+    submitField.appendChild(submitButton);
 
     contactForm.appendChild(nameField);
     contactForm.appendChild(infoField);
-    // contactForm.appendChild(messageField);
+    contactForm.appendChild(messageField);
+    contactForm.appendChild(submitField);
 
 
     return contactForm;

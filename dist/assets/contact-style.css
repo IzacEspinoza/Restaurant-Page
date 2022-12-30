@@ -1,19 +1,16 @@
 .contact{
     color: white;
     height: auto;
-    border: 2px dotted white;
     width: 50%;
     padding: 5px;
 }
 .contact-form{
-    border: 2px dotted red;
     width: 90%;
     height: auto;
     padding: 1rem;
 }
 /*Name fieldset styling*/
 .name-field{
-    border: 2px dotted white;
     width: 100%;
     height: auto;
     margin: 10px;
@@ -28,7 +25,6 @@
 }
 /*Info fieldset styling*/
 .info-field{
-    border: 2px dotted white;
     width: 100%;
     height: auto;
     margin: 10px;
@@ -42,8 +38,38 @@
     border-radius: 5px;
 }
 /*Message fieldset styling*/
-.message-Field{
-    border: 2px dotted white;
+.message-field{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message-input{
     width: 50%;
-    height: 100px;
+    height: 50px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+/*Submit fieldset styling*/
+.submit-field{
+    width: 50%;
+    height: 50px;
+    margin: 10px 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit-button{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 15px;
+}
+.submit-button:hover{
+    box-shadow: inset 1px 1px 1px 1px black;
+    height: 40px;
+    background-color: ghostwhite;
 }
