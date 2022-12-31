@@ -64,14 +64,14 @@ const setActiveButton = (button) => {
     });
   
     button.classList.add("active");
-}
+};
 const createMain = () => {
     const main = document.createElement("main");
     main.classList.add("main");
     main.setAttribute("id", "main");
     main.textContent = "Some coolo inof";
     return main;
-}
+};
 const createFooter = () => {
     const footer = document.createElement("footer");
     footer.classList.add("footer");
@@ -86,7 +86,7 @@ const createFooter = () => {
     footer.appendChild(gitHubLink);
 
     return footer;
-}
+};
 const initializeWebsite = () => {
     const content = document.getElementById("content");
 
@@ -96,5 +96,5 @@ const initializeWebsite = () => {
 
     setActiveButton(document.querySelector(".tab-button"));
     loadHomeTab();
-}
+};
 export default initializeWebsite;
