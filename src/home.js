@@ -20,6 +20,8 @@ const createHome = () => {
     )
   );
 
+  //create another image here of Kwutzeus
+
   return home;
 };
 const makeHeadLine = (text) => {
@@ -30,6 +32,7 @@ const makeHeadLine = (text) => {
 const makeParagraph = (text) => {
   const paragraph = document.createElement("p");
   paragraph.textContent = text;
+  paragraph.classList.add("home-paragraph");
   return paragraph;
 };
 const loadHomeTab = () => {

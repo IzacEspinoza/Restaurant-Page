@@ -68,9 +68,11 @@ body{
     border: 10px double white;
     cursor: crosshair;
 }
-.main p{
-    width: 50%;
-    margin: 5px 20rem;
+.home-paragraph {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
 }
 /*Footer styling*/
 .footer{
