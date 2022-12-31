@@ -59,9 +59,9 @@ body{
     text-align: center;
 }
 .restaurant-Pic{
-    width: 90%;
+    width: 50%;
     height: auto;
-    margin: 10px 50px 10px 50px;
+    margin: 10px 50px 10px 100px;
     border: 10px double #011C26;
 }
 .restaurant-Pic:hover{
@@ -74,9 +74,15 @@ body{
     padding: 10px;
     margin: 5px;
 }
+.chef-pic{
+    width: 50%;
+    height: 50%;
+    margin: 10px 100px 10px 100px;
+}
 /*Footer styling*/
 .footer{
     background-color: #011C26;
-    height: 5rem;
-    padding: 5rem;
+    border: 2px dotted red;
+    height: 1rem;
+    padding: 2rem;
 }

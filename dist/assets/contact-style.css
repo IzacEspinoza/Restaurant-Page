@@ -1,19 +1,22 @@
 .contact{
     color: white;
     height: auto;
-    width: 50%;
+    width: 100%;
     padding: 5px;
+    border: 2px dotted red;
 }
 .contact-form{
-    width: 90%;
+    width: 50%;
     height: auto;
-    padding: 1rem;
+    padding: 10px;
+    margin: auto;
+    border: 2px dotted blue;
 }
 /*Name fieldset styling*/
 .name-field{
-    width: 100%;
+    width: 70%;
     height: auto;
-    margin: 10px;
+    margin: auto;
     display: flex;
 }
 .name-inputs{
@@ -25,9 +28,9 @@
 }
 /*Info fieldset styling*/
 .info-field{
-    width: 100%;
+    width: 70%;
     height: auto;
-    margin: 10px;
+    margin: auto;
     display: flex;
 }
 .info-inputs{
@@ -39,9 +42,9 @@
 }
 /*Message fieldset styling*/
 .message-field{
-    width: 100%;
+    width: 70%;
     height: auto;
-    margin: 10px;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +61,7 @@
 .submit-field{
     width: 50%;
     height: 50px;
-    margin: 10px 10rem;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;

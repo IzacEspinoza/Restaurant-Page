@@ -21,6 +21,12 @@ const createHome = () => {
   );
 
   //create another image here of Kwutzeus
+  const chefImg = document.createElement("img");
+  chefImg.classList.add("chef-pic");
+  chefImg.src = "./assets/images/kwutzie.JPG";
+  chefImg.alt = "chef klutz";
+  home.appendChild(chefImg);
+  
 
   return home;
 };
