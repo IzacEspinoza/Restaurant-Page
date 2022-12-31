@@ -50,7 +50,7 @@ body{
     background-color: black;
     border:2px double #011C26;
     padding: 1rem 0rem;
-    height: auto;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,6 @@ body{
 /*Footer styling*/
 .footer{
     background-color: #011C26;
-    border: 2px dotted red;
-    height: 1rem;
+    height: auto;
     padding: 2rem;
 }
